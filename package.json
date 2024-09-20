@@ -1,0 +1,21 @@
+{
+  "name": "gemini-http-service",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/vertexai": "",
+    "@google-cloud/functions-framework": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "c8": "^10.0.0",
+    "gaxios": "^6.0.0",
+    "mocha": "^10.0.0",
+    "wait-port": "^1.0.4"
+  },
+  "scripts": {
+    "start": "npx functions-framework --target=helloHttp"
+  }
+}
